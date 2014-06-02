@@ -12,4 +12,4 @@ default_task = "publish"
 
 @init
 def initialize(project):
-	pass
+	project.version = '0.1'
